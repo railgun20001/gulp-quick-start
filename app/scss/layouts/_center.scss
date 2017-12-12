@@ -1,0 +1,31 @@
+// 不定宽度水平居中
+.table_father {
+    display: table;
+    text-align: center;
+}
+.table_son {
+    display: table-row;
+}
+
+// 无宽度元素居中
+.fack_center_wrap {
+    float: left; /* 自适应内容宽度 */
+    position: relative;
+    left: 50%; 
+}
+.fack_center_inner {
+    position: relative;
+    left: -50%; 
+}
+
+// position: absolute居中
+.position_father {
+    position: relative;
+}
+
+.position_son {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}

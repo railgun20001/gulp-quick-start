@@ -1,0 +1,45 @@
+.test {
+    display: flex;
+    justify-content: flex-start;
+}
+.float_left {float: left;}
+.float_right {float: right;}
+.text_align_center {text-align: center;}
+
+.fn14 {font-size: 14px;}
+.fn16 {font-size: 16px;}
+.fn18 {font-size: 18px;}
+.fn20 {font-size: 20px;}
+.fn22 {font-size: 22px;}
+.fn24 {font-size: 24px;}
+.fn28 {font-size: 28px;}
+.fn40 {font-size: 40px;}
+
+.color_f15a24 {color: #f15a24;}
+
+body {font-family:"微软雅黑";margin:0; padding:0; background: #FFF; font-size:16px; color:#000;}
+div,form,img,ul,ol,li{margin: 0; padding: 0; border: 0;}
+li{list-style-type:none;}
+img{vertical-align:top;}
+a, a:hover, a:visited, a:link {
+    // text-decoration: none; 
+    color: #4d4d4d; 
+}
+
+// font
+@font-face {
+    font-family: 'iconfont';  /* project id 501276 */
+    src: url('//at.alicdn.com/t/font_501276_k9jficivlv01kyb9.eot');
+    src: url('//at.alicdn.com/t/font_501276_k9jficivlv01kyb9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_501276_k9jficivlv01kyb9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_501276_k9jficivlv01kyb9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_501276_k9jficivlv01kyb9.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
